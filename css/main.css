@@ -1,0 +1,286 @@
+html {
+  font-family: 'Arial', 'Verdana', sans-serif;
+  font-size: 16px;
+  font-weight: 400; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lobster', cursive;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0; }
+
+div, p, form, input, a, span, button {
+  box-sizing: border-box; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+button, input {
+  transition: all 0.5s ease; }
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active {
+  outline: none; }
+
+.container {
+  width: 1000px;
+  margin: 0 auto; }
+
+.header {
+  background: url("../img/bg.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 46px;
+  padding-bottom: 46px; }
+  .header__title {
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 18px; }
+  .header__main-text {
+    text-align: center;
+    color: #fff; }
+  .header__wrapper {
+    margin-bottom: 56px;
+    position: relative; }
+  .header__img {
+    position: absolute;
+    top: 10px;
+    left: 124px; }
+  .header__text {
+    color: #fff; }
+    .header__text_first {
+      margin-bottom: 20px; }
+
+.ideas {
+  background: url("../img/bg-white.png") no-repeat center center;
+  background-size: cover;
+  background-color: #907968;
+  padding-top: 30px;
+  padding-bottom: 111px; }
+  .ideas__title {
+    color: #6d4121;
+    font-size: 42px;
+    margin-bottom: 51px;
+    text-align: center; }
+  .ideas__wrapper {
+    display: flex;
+    align-items: center; }
+  .ideas__text_first {
+    margin-right: 33px; }
+  .ideas__text_second {
+    margin-left: 33px; }
+  .ideas__year {
+    font-size: 85px;
+    color: #454648;
+    writing-mode: vertical-rl;
+    font-weight: 900; }
+
+.first-viruses {
+  background: url("../img/bg-1.png") no-repeat center center;
+  background-size: cover;
+  padding-top: 34px;
+  padding-bottom: 113px; }
+  .first-viruses__title {
+    color: #6d4121;
+    font-size: 42px;
+    margin-bottom: 51px;
+    text-align: center; }
+  .first-viruses__wrapper {
+    display: flex;
+    justify-content: space-between; }
+  .first-viruses__wrap_first {
+    margin-right: 23px; }
+  .first-viruses__info {
+    margin-bottom: 26px; }
+    .first-viruses__info_second {
+      display: flex;
+      flex-direction: row-reverse; }
+  .first-viruses__year {
+    font-size: 85px;
+    color: #ffffff;
+    writing-mode: vertical-rl;
+    font-weight: 900;
+    height: 300px;
+    text-align: center; }
+  .first-viruses__text {
+    margin-bottom: 18px; }
+
+.viruses {
+  padding-top: 27px;
+  padding-bottom: 46px; }
+  .viruses__title {
+    color: #6d4121;
+    font-size: 42px;
+    margin-bottom: 51px;
+    text-align: center; }
+  .viruses__wrapper {
+    display: flex; }
+  .viruses__wrap_first {
+    width: 60%; }
+  .viruses__wrap_second {
+    width: 70%; }
+  .viruses__subtitle {
+    font-family: 'Arial';
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 37px; }
+  .viruses__info {
+    margin-bottom: 56px; }
+  .viruses__year {
+    font-size: 85px;
+    color: #e5d3ae;
+    writing-mode: vertical-rl;
+    font-weight: 900;
+    height: 300px;
+    text-align: start; }
+  .viruses__img {
+    width: 250px; }
+  .viruses__text {
+    margin-bottom: 19px; }
+
+.research {
+  background: url("../img/bg-2.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 37px;
+  padding-bottom: 87px; }
+  .research__title {
+    color: #ffffff;
+    font-size: 42px;
+    margin-bottom: 51px;
+    text-align: center; }
+  .research__wrapper {
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .research__img {
+    margin-right: 54px; }
+  .research__year {
+    font-size: 85px;
+    color: #e5d3ae;
+    writing-mode: vertical-rl;
+    font-weight: 900; }
+  .research__text {
+    color: #ffffff;
+    margin-bottom: 26px; }
+
+.before {
+  padding-top: 69px;
+  padding-bottom: 45px; }
+  .before__title {
+    color: #6d4121;
+    font-size: 42px;
+    margin-bottom: 51px;
+    text-align: center; }
+  .before__wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 87px; }
+  .before__year {
+    font-size: 85px;
+    color: #3e3336;
+    writing-mode: vertical-rl;
+    font-weight: 900;
+    height: 300px;
+    text-align: start; }
+  .before__img_first {
+    margin-right: 54px;
+    height: 247px; }
+  .before__img_second {
+    margin-left: 54px;
+    height: 247px; }
+  .before__text {
+    margin-bottom: 20px; }
+
+.book {
+  background: url("../img/bg-3.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 15px;
+  padding-bottom: 71px; }
+  .book__wrapper {
+    display: flex;
+    justify-content: space-between; }
+  .book__year {
+    font-size: 85px;
+    color: #e5d3ae;
+    writing-mode: vertical-rl;
+    font-weight: 900; }
+  .book__text {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-left: 40px; }
+
+.first-web {
+  background: url("../img/bg-4.png") no-repeat center center;
+  background-size: cover;
+  padding-top: 21px; }
+  .first-web__title {
+    color: #ffffff;
+    font-size: 42px;
+    margin-bottom: 51px;
+    text-align: center; }
+  .first-web__text {
+    color: #ffffff;
+    margin-bottom: 17px; }
+  .first-web__wrapper {
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between; }
+  .first-web__year {
+    font-size: 85px;
+    color: #ffffff;
+    writing-mode: vertical-rl;
+    font-weight: 900; }
+
+.spider {
+  padding-top: 56px;
+  padding-bottom: 69px; }
+  .spider__title {
+    color: #6d4121;
+    font-size: 42px;
+    margin-bottom: 51px;
+    text-align: center; }
+  .spider__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .spider__img_first {
+    margin-right: 31px; }
+  .spider__img_second {
+    margin-left: 31px; }
+
+.start {
+  background-color: #7eb636;
+  padding-top: 26px;
+  padding-bottom: 116px; }
+  .start__title {
+    color: #ffffff;
+    font-size: 42px;
+    margin-bottom: 51px;
+    text-align: center; }
+  .start__wrap {
+    display: flex;
+    justify-content: space-between; }
+  .start__subtitle {
+    font-family: 'Arial';
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 37px;
+    text-align: center; }
+  .start__year {
+    font-size: 85px;
+    color: #ffffff;
+    writing-mode: vertical-rl;
+    font-weight: 900;
+    margin-right: 107px; }
+  .start__images {
+    display: flex;
+    flex-direction: column; }
+  .start__img {
+    margin-bottom: 10px; }

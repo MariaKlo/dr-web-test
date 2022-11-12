@@ -1,0 +1,15 @@
+{
+  "name": "dr-web",
+  "version": "1.0.0",
+  "description": "test for dr web vacancy",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass -o css sass/main.sass -w"
+  },
+  "author": "Maria Klochkova",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0",
+    "sass": "^1.56.1"
+  }
+}
